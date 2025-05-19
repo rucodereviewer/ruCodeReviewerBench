@@ -1,0 +1,33 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E172] Type Error: /Users/a.zavgorodnev/PythonProjects/CodeReview/harness/script_scala/src/main/scala/ScalaCodeAnalyzer.scala:17:40 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m    [33mval[0m [36mparsedCode[0m = input.parse[[35mSource[0m][0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                        ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                            don't know how to parse into scala.io.Source[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/a.zavgorodnev/PythonProjects/CodeReview/harness/script_scala/src/main/scala/ScalaCodeAnalyzer.scala:21:21 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m        findPosition(tree, lineNumber) [33mmatch[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                     ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                     Not found: tree - did you mean Tree?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/a.zavgorodnev/PythonProjects/CodeReview/harness/script_scala/src/main/scala/ScalaCodeAnalyzer.scala:23:23 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m            println([31ms"[0m$name[31m starts at line [0m$startLine[31m and ends at line [0m$endLine[31m."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                       ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                       Not found: name - did you mean Name?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/a.zavgorodnev/PythonProjects/CodeReview/harness/script_scala/src/main/scala/ScalaCodeAnalyzer.scala:23:44 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m            println([31ms"[0m$name[31m starts at line [0m$startLine[31m and ends at line [0m$endLine[31m."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                            ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                            Not found: startLine[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/a.zavgorodnev/PythonProjects/CodeReview/harness/script_scala/src/main/scala/ScalaCodeAnalyzer.scala:23:72 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m            println([31ms"[0m$name[31m starts at line [0m$startLine[31m and ends at line [0m$endLine[31m."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                        ^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                      Not found: endLine[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/a.zavgorodnev/PythonProjects/CodeReview/harness/script_scala/src/main/scala/ScalaCodeAnalyzer.scala:35:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m35 |[0m    tree.collect {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    value collect is not a member of scala.meta.Tree[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

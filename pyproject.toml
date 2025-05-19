@@ -1,0 +1,16 @@
+[project]
+name = "RuCodeReview"
+version = "1.0"
+description = "Repository for the paper"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "litellm>=1.69.1",
+    "lm-eval>=0.4.8",
+    "matplotlib>=3.10.3",
+    "pandas>=2.2.3",
+    "sacrebleu>=2.5.1",
+    "seaborn>=0.13.2",
+    "vllm>=0.8.5.post1",
+]

@@ -1,0 +1,1 @@
+vllm serve --model Qwen/Qwen2.5-Coder-32B-Instruct --served-model-name qwen-coder-32b --quantization fp8 --gpu-memory-utilization 0.9 --port 8000 --host 0.0.0.0
